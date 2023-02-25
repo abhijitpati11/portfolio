@@ -1,0 +1,31 @@
+.box {
+  color: white;
+  width: 70vw;
+  background-color: rgb(35, 33, 33);
+  margin-bottom: 3rem;
+  margin-right: 4rem;
+  padding-left: 4rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 2rem 1rem 2rem 1rem;
+  align-items: center;
+  position: relative;
+  border-left: 10px solid yellow;
+}
+
+.box:hover {
+  cursor: pointer;
+  border-left: 10px solid green;
+  border-radius: .5rem 2rem .5rem 2rem;
+}
+
+.box i {
+  font-size: 3rem;
+  color: rgb(217, 177, 76);
+}
+.education .box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

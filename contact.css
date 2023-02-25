@@ -1,0 +1,63 @@
+
+
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .row .content {
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact .row form .contact-box {
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: #3333;
+  color: white;
+  text-transform: none;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.contact .row form .message {
+  height: 16rem;
+  resize: none;
+}
+
+.contact .row .content .title {
+  text-decoration: uppercase;
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact .row .content .info h3 { 
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: medium;
+  cursor: pointer;
+
+}
+
+.contact .row .content .info h3 i {
+  padding: 1.3rem;
+  color: var(--yellow);
+}
+
+.contact .row .content .info h3 i a {
+  color: white;
+}
+

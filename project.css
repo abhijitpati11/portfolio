@@ -1,0 +1,58 @@
+
+
+.project .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.project .box-container .box {
+  height: 20rem;
+  width: 25rem;
+  border-radius: 1.5rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project .box-container .box .text {
+  text-align: center;
+  justify-content: center;
+  display: none;
+}
+.project .box-container .box .text h3 {
+  border-bottom: 1.3px solid var(--yellow);
+}
+
+.project .box-container .box .text p {
+  align-items: left;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.project .box-container .box .text .btn-secondary {
+  font-size: 1.2rem;
+}
+
+.project .box-container .box:hover img {
+  /* transition: to bottom ; */
+  display: none;
+}
+.project .box-container .box:hover .text {
+  display: block;
+}
+
+.project .box:hover {
+  cursor: pointer;
+  border-left: none;
+  border-bottom: 10px solid green;
+  border-radius: .5rem 2rem .5rem 2rem;
+}
